@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>后台管理-登录</title>
+		
+		<style>
+			body{background-color:lightpink;/*背景为粉*/}
+			#all{
+				height: 780px;
+				width: 1535px;/*顶部全占满*/
+				background-image: url(images/staff_1024.jpg);
+				margin-top: -8px;
+				margin-left: -7px;
+			}
+			#login{
+				background-color: white;/*使盒子背景变白*/
+			    width: 550px; 
+			    height: 650px;
+			    margin: 0 auto;  /*使边框居中*/
+			    border-radius: 5px;
+			    margin-top: -700px;
+			    text-align:center;/*使字居中*/
+			    padding-top: 18px;/*使标题向下移白色边的顶端内边距*/
+			    padding-left:5px;
+			    float:  left;
+			    margin-left: 500px;
+			}
+			#logo{
+				width: 255px;
+				height: 100px;
+				margin-left: -10px;
+			}
+			#name{
+				font-size:15px;
+				font-family:"黑体";
+				margin-top: 20px;
+				color: mistyrose;
+			}
+			#nname{
+				font-size:18px;
+				font-family: "仿宋";
+				color: lightpink;
+			}
+			#uname{
+				width: 430px;
+				height: 35px;
+				border-radius: 5px;/*边框变弧度*/
+				border: 1px solid lightgray;/*文本边框粗细，颜色为灰色*/
+				margin-left: -30px;/*边框向左移为负，右移为正*/
+				background-color: transparent;/*使文本框透明露出图标*/
+				padding-left: 30px;/*调整文本框的内边距使光标向右移,同时字也往后移*/
+				margin-top: 10px;
+			}
+			#up{
+				width: 430px;
+				height: 35px;
+				border-radius: 5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 31px;
+				margin-top: 18px;/*调整文本框顶部内边距，使和上一个文本框有距离*/
+			}
+			#md{
+				width:240px;
+				height: 35px;
+				border-radius: 5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 31px;
+				margin-top: 18px;
+			}
+			#my{
+				width:20px;
+				height: 20px;
+				margin-top: 15px;
+				margin-left: -445px;
+			}
+			
+			#namen{
+				font-size:18px;
+				color:darkgrey;
+				margin-top: -25px;
+				margin-left: -340px;
+			}
+			#first{
+				width: px;
+				height: 20px;
+				background-color:gainsboro;
+				margin-left: 290px;
+				margin-top: -30px;
+			}
+			#lg{
+				width: 465px;
+				height: 35px;
+				margin-top: 18px;
+				border-radius: 5px;
+				background-color: pink;
+				border:1px solid lightpink;
+				color:white;/*字颜色变白*/
+				margin-left: 338px;
+				font-size: 20px;/*改变字的大小*/
+			}
+			#m{
+				margin-left: -190px;
+			}
+			#u{
+				width: 180px;
+				height: 23px;
+				margin-top: -38px;
+				margin-left:355px ;
+			}
+			#n{
+				width: 120px;
+				height: 37px;
+			}
+			a{text-decoration: none;}/*去下划线*/
+			a:hover{/*变色*/
+				color:white;
+			}
+			#weixin{
+				width: 70px;
+				height: 65px;
+			}
+			#wx{
+				width: 30px;
+				height: 30px;
+				margin-left:450px ;
+				margin-top: 20px;
+			}
+			#QQ{
+				width: 70px;
+				height: 65px;
+			}
+			#Q{
+				width: 30px;
+				height: 30px;
+				margin-left:580px ;
+				margin-top: -30px;
+			}
+			#weibo{
+				width: 70px;
+				height: 65px;
+			}
+			#wb{
+				width: 30px;
+				height: 30px;
+				margin-left:710px ;
+				margin-top: -30px;
+			}
+			#XM{
+				width: 30px;
+				height: 30px;
+				margin-left: 475px;
+				margin-top: 55px;
+			}
+			#XingMing{
+				width: 300px;
+				height: 54px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="succeed.html">
+			<div id="all"></div>
+		<div id="login"><!--制作一个盒子-->
+			  <img id="logo" src="images/1626325041626_61C7AF13-B892-45fd-8520-6A7A53262DFC.png">
+				<div id="name"><h1>毕业设计管理系统</h1></div>
+				<div id="nname"><h5>可爱女生专用版</h5></div>
+				<img src="images/lALPDgQ9yIA4n9gUFA_20_20.png">
+			    <input placeholder="用户名" type="text" id="uname" name="username">
+			    <br>
+			    <img src="images/lALPDgQ9yIA-N8oUFA_20_20.png" >
+			    <input placeholder="请输入密码" type="password" id="up" name="up">  
+			    <br>
+		  		<img id="m" src="images/1626236291442_12D29A47-3484-4383-B52F-4077417797E5.png">
+		  		<input placeholder="请输入验证码" type="text" id="md">
+		  		<div id="u">
+		  			<img  id="n" src="images/1626268985656_E44D04DC-99BF-4441-B6AA-8BB4F4D04969.png">
+		  		</div>
+		  		<br>
+		 		<input type="checkbox"  id="my"><br>
+		 		<div id="namen">记住密码
+		 		<br>
+		        <button id="lg"><a href="http://zbzs.nuc.edu.cn/">登&nbsp;&nbsp;&nbsp;录</a></button>
+		        <div id="wx">
+		        	<a href="https://www.guidaye.com/dp/">
+		        		<img id="weixin" src="images/1626330578893_D9535EB3-0E24-4a3d-BE8C-3D7A3AB449D1.png">
+		        	</a>
+		        </div>
+		         <div id="Q">
+		        	<a href="https://www.360kan.com/ct/OUTkacOkM473Cz.html">
+		        		<img id="QQ" src="images/1626330561713_1329F95B-EF0B-46ac-89E0-074360D314B0.png">
+		        	</a>
+		        </div>
+		         <div id="wb">
+		        	<a href="https://dongman.2345.com/zq/p46.html">
+		        		<img id="weibo" src="images/1626330594229_61220D56-01B4-4615-955E-BCDA8C645CA6.png">
+		        	</a>
+		        </div>
+		        <div id="XM">
+		        	<img id="XingMing" src="images/1626331969439_E98ADAC5-30CF-461d-9AF3-18D544599E58.png">
+		        </div>
+		</div>
+		</form>
+	</body>
+</html>
